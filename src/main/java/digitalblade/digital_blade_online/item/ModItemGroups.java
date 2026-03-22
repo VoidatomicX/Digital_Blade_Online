@@ -17,6 +17,8 @@ public class ModItemGroups {
                         entries.add(ModItems.Rose_Scythe);
                         entries.add(ModItems.Dual_Z_Scythe);
                         entries.add(ModItems.One_Last_Time);
+                        entries.add(ModItems.Copper_Chakram);
+                        entries.add(ModItems.Rose_Rapier);
 
                     }).build());
 

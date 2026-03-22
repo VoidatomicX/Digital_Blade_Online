@@ -22,6 +22,12 @@ public class ModItems {
     public static final Item One_Last_Time = registerItem("one_last_time",
             new SwordItem(ToolMaterials.NETHERITE,1,-1.5f, new FabricItemSettings()));
 
+    public static final Item Copper_Chakram = registerItem("copper_chakram",
+            new SwordItem(ToolMaterials.NETHERITE,1,-1.5f, new FabricItemSettings()));
+
+    public static final Item Rose_Rapier = registerItem("rose_rapier",
+            new SwordItem(ToolMaterials.NETHERITE,1,-1.5f, new FabricItemSettings()));
+
 
 
 
