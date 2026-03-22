@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "digital_blade_online",
+  "version": "${version}",
+  "name": "Digital Blade Online",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/digital_blade_online/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "digitalblade.digital_blade_online.client.Digital_blade_onlineDataGenerator"
+    ],
+    "client": [
+      "digitalblade.digital_blade_online.client.Digital_blade_onlineClient"
+    ],
+    "main": [
+      "digitalblade.digital_blade_online.Digital_blade_online"
+    ]
+  },
+  "mixins": [
+    "digital_blade_online.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
