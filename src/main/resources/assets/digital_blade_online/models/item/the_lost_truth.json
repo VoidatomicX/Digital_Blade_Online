@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "digital_blade_online:item/the_lost_truth"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, -90, 132],
+			"translation": [0, 9.75, 1.5],
+			"scale": [1.43, 1.43, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 90, -132],
+			"translation": [0, 9.75, 1.5],
+			"scale": [1.43, 1.43, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, -90, 134],
+			"translation": [0, 4.5, 0.25],
+			"scale": [1.43, 1.43, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 90, -134],
+			"translation": [0, 4.5, 0.25],
+			"scale": [1.43, 1.43, 1]
+		},
+		"ground": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -6, 0],
+			"scale": [2.03, 2.03, 1]
+		}
+	}
+}

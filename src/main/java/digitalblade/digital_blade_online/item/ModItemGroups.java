@@ -19,6 +19,12 @@ public class ModItemGroups {
                         entries.add(ModItems.One_Last_Time);
                         entries.add(ModItems.Copper_Chakram);
                         entries.add(ModItems.Rose_Rapier);
+                        entries.add(ModItems.Asriels_Rapier);
+                        entries.add(ModItems.Karmatic_Omen);
+                        entries.add(ModItems.Truth_Omen);
+                        entries.add(ModItems.The_Lost_Truth);
+                        entries.add(ModItems.The_World_Divider);
+                        entries.add(ModItems.Rose_Hammer);
 
                     }).build());
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "digital_blade_online:item/karmatic_omen"
+  }
+}

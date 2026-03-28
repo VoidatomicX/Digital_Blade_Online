@@ -19,14 +19,35 @@ public class ModItems {
     public static final Item Dual_Z_Scythe = registerItem("dual_z_scythe",
             new SwordItem(ToolMaterials.NETHERITE,4,-2f, new FabricItemSettings()));
 
+    public static final Item The_World_Divider = registerItem("the_world_divider",
+            new SwordItem(ToolMaterials.NETHERITE,5,-2.5f, new FabricItemSettings()));
+
+    public static final Item The_Lost_Truth = registerItem("the_lost_truth",
+            new SwordItem(ToolMaterials.NETHERITE,4,-2f, new FabricItemSettings()));
+
+    public static final Item Rose_Hammer = registerItem("rose_hammer",
+            new SwordItem(ToolMaterials.NETHERITE,6,-3f, new FabricItemSettings()));
+
+    public static final Item Bone_Cracker = registerItem("bone_cracker",
+            new SwordItem(ToolMaterials.NETHERITE,6,-3f, new FabricItemSettings()));
+
     public static final Item One_Last_Time = registerItem("one_last_time",
-            new SwordItem(ToolMaterials.NETHERITE,1,-1.5f, new FabricItemSettings()));
+            new SwordItem(ToolMaterials.NETHERITE,-1,-1f, new FabricItemSettings()));
+
+    public static final Item Truth_Omen = registerItem("truth_omen",
+            new SwordItem(ToolMaterials.NETHERITE, 1,-1f, new FabricItemSettings()));
+
+    public static final Item Karmatic_Omen = registerItem("karmatic_omen",
+            new SwordItem(ToolMaterials.NETHERITE, 1,-1f, new FabricItemSettings()));
 
     public static final Item Copper_Chakram = registerItem("copper_chakram",
             new SwordItem(ToolMaterials.NETHERITE,1,-1.5f, new FabricItemSettings()));
 
     public static final Item Rose_Rapier = registerItem("rose_rapier",
             new SwordItem(ToolMaterials.NETHERITE,1,-1.5f, new FabricItemSettings()));
+
+    public static final Item Asriels_Rapier = registerItem("asriels_rapier",
+            new SwordItem(ToolMaterials.NETHERITE,1,-1f, new FabricItemSettings()));
 
 
 

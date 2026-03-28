@@ -4,6 +4,7 @@
   "package": "digitalblade.digital_blade_online.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "LivingEntityMixin"
   ],
   "client": [
     "HealthHudMixin"
