@@ -2,6 +2,7 @@ package digitalblade.digital_blade_online;
 
 import digitalblade.digital_blade_online.item.ModItemGroups;
 import digitalblade.digital_blade_online.item.ModItems;
+import digitalblade.digital_blade_online.screen.StatsScreenHandler;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,7 @@ public class Digital_blade_online implements ModInitializer {
     public void onInitialize() {
         ModItemGroups.registerItemGroups();
         ModItems.registerModItems();
+
+        StatsScreenHandler.register();
     }
 }

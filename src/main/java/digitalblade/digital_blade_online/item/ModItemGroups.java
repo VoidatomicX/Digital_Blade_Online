@@ -25,7 +25,7 @@ public class ModItemGroups {
                         entries.add(ModItems.The_Lost_Truth);
                         entries.add(ModItems.The_World_Divider);
                         entries.add(ModItems.Rose_Hammer);
-
+                        entries.add(ModItems.STATS_IMPROVER);
                     }).build());
 
 

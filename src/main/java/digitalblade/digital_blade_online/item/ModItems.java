@@ -1,6 +1,7 @@
 package digitalblade.digital_blade_online.item;
 
 import digitalblade.digital_blade_online.Digital_blade_online;
+import digitalblade.digital_blade_online.item.custom.StatsImproverItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -49,6 +50,9 @@ public class ModItems {
     public static final Item Asriels_Rapier = registerItem("asriels_rapier",
             new SwordItem(ToolMaterials.NETHERITE,1,-1f, new FabricItemSettings()));
 
+    public static final Item STATS_IMPROVER = registerItem("stats_improver",
+            new StatsImproverItem(new Item.Settings().maxCount(1))
+    );
 
 
 
